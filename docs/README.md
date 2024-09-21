@@ -1,5 +1,10 @@
 # Synerise API
 
+## Setting
+
+This API requires the Synerise API key in order to work properly.
+Open the `vtex.synerise-api` app on the admin (myvtex.com/admin/apps) and set the API key provided by synerise.
+
 ## Example
 
 ```
