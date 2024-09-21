@@ -28,7 +28,24 @@
     },
     {
       "name": "colossus-write-logs"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.synerise.com",
+        "path": "/*"
+      }
     }
   ],
+  "settingsSchema": {
+    "title": "Recommendation Resolver",
+    "type": "object",
+    "properties": {
+      "apiKey": {
+        "title": "API Key",
+        "type": "string"
+      }
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
