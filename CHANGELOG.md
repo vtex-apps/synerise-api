@@ -7,4 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Feature
+
+- Add cors to the route.
+
 ## [0.0.2] - 2024-09-21
