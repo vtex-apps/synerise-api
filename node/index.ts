@@ -1,5 +1,6 @@
 import type { ClientsConfig, RecorderState } from '@vtex/api'
 import { LRUCache, method, Service } from '@vtex/api'
+import cors from '@koa/cors'
 
 import { Clients } from './clients'
 import { userToken } from './middlewares/userToken'
@@ -46,7 +47,8 @@ export default new Service({
   clients,
   routes: {
     campaign: method({
-      POST: [userToken, campaign],
+      OPTIONS: cors(),
+      POST: [cors(), userToken, campaign],
     }),
   },
 })

@@ -1213,6 +1213,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@koa/cors@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@koa/cors/-/cors-5.0.0.tgz#0029b5f057fa0d0ae0e37dd2c89ece315a0daffd"
+  integrity sha512-x/iUDjcS90W69PryLDIMgFyV21YLTnG9zOpPXS7Bkt2b8AsY3zZsIpOLBkYr9fBcF3HbkKaER5hOBZLfpLgYNw==
+  dependencies:
+    vary "^1.1.2"
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -1427,6 +1434,13 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
+"@types/koa__cors@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/koa__cors/-/koa__cors-5.0.0.tgz#74567a045b599266e2cd3940cef96cedecc2ef1f"
+  integrity sha512-LCk/n25Obq5qlernGOK/2LUwa/2YJb2lxHUkkvYFDOpLXlVI6tKcdfCHRBQnOY4LwH6el5WOLs6PD/a8Uzau6g==
+  dependencies:
+    "@types/koa" "*"
+
 "@types/mime@*":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
@@ -1554,10 +1568,10 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
   integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
 
-"@vtex/api@6.47.0":
-  version "6.47.0"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.47.0.tgz#6910455d593d8bb76f1f4f2b7660023853fda35e"
-  integrity sha512-t9gt7Q89EMbSj3rLhho+49Fv+/lQgiy8EPVRgtmmXFp1J4v8hIAZF7GPjCPie111KVs4eG0gfZFpmhA5dafKNA==
+"@vtex/api@6.48.0":
+  version "6.48.0"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.48.0.tgz#67f9f11d197d543d4f854b057d31a8d6999241e9"
+  integrity sha512-mAdT7gbV0/BwiuqUkNH1E7KZqTUczT5NbBBZcPJq5kmTr73PUjbR9wh//70ryJo2EAdHlqIgqgwsCVpozenlhg==
   dependencies:
     "@types/koa" "^2.11.0"
     "@types/koa-compose" "^3.2.3"
